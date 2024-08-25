@@ -1,6 +1,6 @@
 package foods
 
-type food struct {
+type Food struct {
 	Name        string
 	Categories  []string
 	ServingSize int
