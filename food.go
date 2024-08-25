@@ -6,4 +6,5 @@ type food struct {
 	ServingSize int
 	ServingUOM  string
 	Calories    int
+	Nutrients   []Nutrient
 }
