@@ -1,10 +1,9 @@
 package foods
 
 type Nutrient struct {
-	Name           string
-	Type           string
-	Categories     []string
-	ServingUOM     string
-	DailyRecommend int
+	Name        string
+	Type        string
+	ServingUOM  string
+	ServingSize float64
+	Categories  []string
 }
-
